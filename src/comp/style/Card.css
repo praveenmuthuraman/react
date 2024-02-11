@@ -1,0 +1,38 @@
+/* Card.css */
+
+.card {
+    border: 1px solid #ddd;
+    
+    border-radius: 8px;
+    /* Add border-radius for rounded corners */
+    overflow: hidden;
+    /* Hide any overflow content */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Scale up the card on hover */
+}
+
+.card-body {
+    padding: 20px;
+    /* Add padding to the card body */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    /* Set the font size for the title */
+    color: #333;
+    /* Set the text color for the title */
+}
+
+.card-price {
+    font-size: 1.2rem;
+    /* Set the font size for the price */
+    color: #007bff;
+    /* Set a color for the price */
+}
+
+/* Add more styles as needed for other elements in your card */
